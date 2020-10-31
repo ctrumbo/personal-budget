@@ -4,7 +4,6 @@ const dataSchema = new mongoose.Schema({
     title: {
         type: String,
         required: true,
-        uppercase: true,
         trim: true,
         unique: true,
     },
